@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+}
+#header{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+.main1{
+    position: relative;
+    background-image: url("img/home-bg.PNG");
+    min-height: 135vh;
+    background-size: cover;
+    background-position: center;
+}
+.main2{
+    position: relative;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgb(255, 255, 255)),url(img/home-bg2.PNG);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    width: 110px;
+    transition: 0.2s;
+}
+.logo:hover{
+    width: 115px;
+}
+.navlink{
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+    transition: 0.2s;
+}
+.navlink:hover{
+    color: #fff;
+    font-size: large;
+}
+.social-media{
+    cursor: pointer;
+}
+.bi-instagram{
+    transition: 0.2s;
+}
+.bi-instagram:hover{
+    font-size: larger;
+}
+.bi-twitter{
+    transition: 0.2s;
+}
+.bi-twitter:hover{
+    font-size: larger;
+}
+.bgtext{
+    padding-top: 20%;
+    padding-left: 20%;
+}
+.bgtext a{
+    text-decoration: none;
+    color: #000;
+    font-size: 500%;
+}
+.bgtext2{
+    padding-top: 30%;
+    padding-left: 10%;
+}
+.bgtext2 a{
+    text-decoration: none;
+    color: #000;
+    font-size: 300%;
+}
+.trailsbg{
+    background-image: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.205)),url(img/2ndbg.PNG);
+    min-height: 135vh;
+    background-size: cover;
+    background-position: center;
+}
+.trailsbg h1{
+    font-size: 350%;
+}
+#bikes h1{
+    font-size: 350%;
+}
+.coachingbg img{
+    width: 100%;
+}
+.coachingh{
+    padding-top: 30%;
+    padding-right: 50%;
+    
+}
+.coachpic img{
+    width: 72px;
+}
+.crankworx1{
+    background-image: linear-gradient(to right, rgb(0, 0, 0),rgba(0, 0, 0, 0)),url(img/trailercr1.png);
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.crankworx2{
+    background-image: linear-gradient(to right, rgb(0, 0, 0),rgba(0, 0, 0, 0)),url(img/trailercr2.png);
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.crankworx3{
+    background-image: linear-gradient(to right, rgb(0, 0, 0),rgba(0, 0, 0, 0)),url(img/trailercr3.png);
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(1, 0, 49, 0.747)),url(img/footer.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.footer h6{
+    padding-top: 5%;
+}
+.footer-logo img{
+    width: 8%;
+}
+.fsocialicon{
+    padding-top: 2%;
+    cursor: pointer;
+}
+.footer h5{
+    padding-top: 9%;
+}
+.getintouch{
+    padding-top: 10%;
+}
+.footer h3{
+    padding-top: 4%;
+}
