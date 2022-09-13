@@ -26,9 +26,6 @@
     width: 250px;
     transition: 0.2s;
 }
-.logo:hover{
-    width: 240px;
-}
 .navlink{
     text-decoration: none;
     color: #fff;
